@@ -2,6 +2,10 @@
 
 Auto-scrolls a YouTube channel's Videos page until it finds your bookmarked video.
 
+<p align="center">
+  <img src="docs/screenshot.png" alt="Video Finder popup" width="320">
+</p>
+
 ## Installation (takes ~1 minute)
 
 1. Open Chrome and go to: `chrome://extensions`
