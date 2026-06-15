@@ -23,19 +23,11 @@
     .logo-icon {
       width: 32px;
       height: 32px;
-      background: #ff0000;
       border-radius: 8px;
-      display: flex;
-      align-items: center;
-      justify-content: center;
       flex-shrink: 0;
     }
 
-    .logo-icon svg {
-      width: 18px;
-      height: 18px;
-      fill: white;
-    }
+    .logo-icon svg { display: block; width: 32px; height: 32px; }
 
     .logo-text {
       font-size: 15px;
@@ -193,7 +185,15 @@
 <body>
   <div class="logo">
     <div class="logo-icon">
-      <svg viewBox="0 0 24 24"><path d="M8 5v14l11-7z"/></svg>
+      <svg viewBox="0 0 128 128">
+        <defs><linearGradient id="lg" x1="0" y1="0" x2="1" y2="1">
+          <stop offset="0" stop-color="#ff2d3f"/><stop offset="1" stop-color="#c1001a"/></linearGradient></defs>
+        <rect width="128" height="128" rx="28" fill="url(#lg)"/>
+        <line x1="80" y1="80" x2="104" y2="104" stroke="#fff" stroke-width="13" stroke-linecap="round"/>
+        <circle cx="56" cy="56" r="32" fill="#0d0d10"/>
+        <circle cx="56" cy="56" r="32" fill="none" stroke="#fff" stroke-width="9"/>
+        <path d="M48 44 L72 56 L48 68 Z" fill="#fff"/>
+      </svg>
     </div>
     <div class="logo-text">
       Video Finder
