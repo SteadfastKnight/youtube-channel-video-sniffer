@@ -1,4 +1,4 @@
-# YouTube Video Finder — Chrome Extension
+# YouTube Channel Video Sniffer — Chrome Extension
 
 Auto-scrolls a YouTube channel's Videos page until it finds your bookmarked video.
 
